@@ -6,4 +6,5 @@ var testComponent = React.createClass({
   }
 });
 
-React.renderComponent(testComponent, document.getElementById('comment-box'));
+// add a comm do the bad thing
+React.renderComponent(testComponent, document.getElementById('test'));
