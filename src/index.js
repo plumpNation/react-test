@@ -7,4 +7,4 @@ var testComponent = React.createClass({
 });
 
 // add a comm do the bad thing
-React.renderComponent(testComponent, document.getElementById('test'));
+React.renderComponent(testComponent(), document.getElementById('test'));

@@ -8,7 +8,7 @@ var testComponent = React.createClass({
 });
 
 // add a comm do the bad thing
-React.renderComponent(testComponent, document.getElementById('test'));
+React.renderComponent(testComponent(), document.getElementById('test'));
 
 },{"react":"/home/gavin/dev/react/node_modules/react/react.js"}],"/home/gavin/dev/react/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
